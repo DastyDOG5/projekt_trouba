@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.15) url("../images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    margin-left: 25px;
+    display: flex;
+    font-size: 30px;
+    color: #03063c;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: rgb(42, 27, 118, 0.9);
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 80px;
+    line-height: 80px;
+    text-align: right;
+}
+
+.navItems {
+    display: flex;
+}
+
+.navItems li {
+    font-weight: bold;
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navItems li a {
+    font-size: 25px;
+    color: #646464;
+    letter-spacing: 3px;
+    font-family: TextFont, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navItems li a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.navItems li ahere {
+    font-size: 25px;
+    color: #0050b0;
+    letter-spacing: 3px;
+    font-family: TextFont, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.navItems li ahere:hover {
+    color: #00204a;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nadpis1 {
+    margin-top: 18%;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 22%;
+    font-weight: bold;
+}
+.odstavec1 {
+    background: rgba(128, 128, 128, 0.79);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
