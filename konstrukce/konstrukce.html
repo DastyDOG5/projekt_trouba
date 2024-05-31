@@ -81,28 +81,69 @@
 
     <h2 id="odstavec5">Pohyblivá část konstrukce</h2>
         <div class="box5">
-            <img id="img10" src="../images/img10.png" alt="Obrázek nelze zobrazit" width="650px" height="350px">
-            <p class="text5">   V místech, kde je tunel přidělán k podstavám, jsou použity “redukce
-                průměru”. To je tam z toho důvodu, že středová část tunelu je provedena
-                průhlednou trubkou s určitým vnitřním průměrem. Tento průměr 93 mm
-                máme jako standardní hodnotu pro šířku tunelu. Avšak v místě, kde je
-                umístěn motor, je vnitřní průměr rozšířen, jelikož je motor sám o sobě dost
-                velký, a tak by blokoval průchodu vzduchu v tunelu. Na druhé straně je
-                zase redukce umístěna čistě z důvodu, aby tunel mohl nabírat více vzduchu
-                než se dostane k motoru a vrtuli. <br>
-                - Části jsou k sobě připevněny vždy desíti M6 šrouby rozmístěnými
-                symetricky kolem dokola tunelu. Mezi všemi částmi jsou umístěna 1 mm
-                široká těsnění, také vlastnoručně vytištěná na míru. <br>
-                - Na středové části je ještě umístěn štítek se základními informacemi.</p>
+            <img id="img10" src="../images/img10.png" alt="Obrázek nelze zobrazit" width="675px" height="350px">
+            <p class="text5">   - Celá pohyblivá část se skládá primárně z ložisek, spojovací konstrukce
+                ložisek, hlavní tunelové části pohyblivé konstrukce, upevňovací příruba pro
+                transparentní trubku a upevnění měřící části anemometru. <br>
+                - Ložiska jsou 4 a jedná se o ložiska ze stránky thingiverse.com s názvem
+                “Square Rail Linear Ball Bearing” od 3DPRINTINGWORLD. Tyto ložiska
+                používají 4,5 mm kovové broky pro vlastní pohyb. Každé ložisko jich
+                potřebuje 40. Se spojovací konstrukcí jsou ložiska spojeny přes M4 šrouby a
+                to tak, že v ložiscích jsou zataveny závitové vložky M4. <br>
+                - Vrchní část tunelu je k této konstrukci přidělána opět čtyřmi M6 šrouby.
+                Stejně jako u pevné konstrukce i zde jsou vrchní části tunelu k sobě
+                připevněny přes těsnění deseti M6 šrouby. Průhledná trubka je přidělána k
+                této konstrukci čistě přesným vytištěním a vtlačením do upevňovací
+                konstrukce. A na konci se nachází tedy anemometr. Toto upevnění je
+                adaptováno tak, aby veškerý vzduch procházel měřícím přístrojem. Je
+                možné že se tento uchytávací mechanismus změní.</p>
         </div>
+    <h2 id="odstavec6">Motor</h2>
+    <div class="box6">
+        <p class="text6">- Motor, který je použit v tomto projektu, je typ univerzálního motoru. Tento
+            motor je především určen na střídavé napětí 230 V a 50 Hz. Při připojení do
+            sítě motor odebírá 0,5 A. To znamená že odebírá zdánlivý výkon 115 VA a
+            když počítáme cos φ = 0,7, odebírá činný výkon 80,5 W. Všechny hodnoty při
+            běhu na maximální výkon</p>
+        <img id="img11" src="../images/img11.png" alt="Obrázek nelze zobrazit" width="575px" height="350px">
+    </div>
+
+    <h2 id="odstavec7">Regulace</h2>
+    <div class="box7">
+        <img id="img12" src="../images/img12.png" alt="Obrázek nelze zobrazit" width="650px" height="350px">
+        <p class="text7">   - Regulace otáček motoru je provedena jednoduše změnou efektivní hodnoty
+            napětí. Toto si můžeme dovolit, protože se jedná o univerzální motor a ne
+            třeba asynchronní. Je zde použit jednoduchý obvod, tzv. dimmer.</p>
+    </div>
+
+    <div class="box8">
+        <p class="text8">- Tento obvod funguje tak, že “osekává” sinusový průběh napětí a proudu a
+            tím se zmenšuje právě efektivní hodnota. Tento jev zařizuje součástka
+            jménem triak. Výstupní napětí pak tedy vypadá jako na obr. č. 7. Na začátku
+            vlevo je vidět výstup při nulovém odporu na potenciometru, tedy průběh
+            sinusového napětí se nijak nemění. Na druhé straně je potenciometr na
+            svém maximu 500 kΩ a obvod nepropouští žádný proud. Mezi tím je vidět
+            jak se výstup chová při odporu potenciometru mezi těmito dvěma
+            hodnotami.</p>
+        <img id="img13" src="../images/img13.png" alt="Obrázek nelze zobrazit" width="650px" height="250px">
+    </div>
+
+    <h2 id="odstavec8">Měřič (Anemometr)</h2>
+    <div class="box9">
+        <img id="img14" src="../images/img14.png" alt="Obrázek nelze zobrazit" width="650px" height="350px">
+        <p class="text9">- Přístroj, kterým měřím průtok vzduchu v tunelu, je Thermo-Anemometer.
+            Model TL-A2 od společnosti FIXKIT. Jedna z důležitých informací je, že
+            maximální rychlost měřitelná tímto anemometrem je 30 m/s. Až samotné
+            měření odhalí zda navržené vrtule dosáhnou této rychlosti a budu muset
+            změnit způsob měření <br>
+            - Touto změnou myslím to, že momentálně všechen vzduch je proháněn
+            měřící částí, ale pokud dosáhneme tohoto limitu, změním konstrukci tak,
+            aby vzduch nevycházel jen přes anemometr. Přeci Jen tento přístroj není
+            navržen tak, aby byl součástí nějakého měřeného potrubí ale byl do něj
+            vložen když už tak částečně.</p>
+    </div>
 
 
-
-
-
-
-
-</div>
 
 </body>
 </html>
