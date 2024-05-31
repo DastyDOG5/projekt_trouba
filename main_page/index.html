@@ -1,25 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
     <head>
         <meta charset="UTF-8">
         <title>Úvod</title>
+        <link rel="icon" type="image/x-icon" href="../images/img3.png">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
             <nav>
-                <a class="logo" href="index.html"> Projekt pro StreTech 2024</a>
+                <a class="logo" href="index.html"><img src="../images/img2.png" width="140px" height="120px" alt="Obrázek nelze zobrazit"></a>
                 <ul class="navItems">
-                    <li><a href="#">Technická konstrukce</a></li>
-                    <li><a href="#">Návrh vrtulí</a></li>
+                    <li><a href="../konstrukce/konstrukce.html">Technická konstrukce</a></li>
+                    <li><a href="../vrtule/vrtule.html">Návrh vrtulí</a></li>
                     <li><a href="#">Měření</a></li>
                     <li><a href="#">Zdroje</a></li>
                 </ul>
             </nav>
         </header>
             <div>
-                <h1 class="nadpis1"> Návrh vlastní vrtule dle logických postupů <br> a vlastního měření ve větrném tunelu</h1>
-                <h2 class="odstavec1"> O projektu</h2>
+                <h1 id="nadpis1"> Návrh vlastní vrtule dle logických postupů <br> a vlastního měření ve větrném tunelu</h1>
+                </div>
+        <div class="box">
+                    <h2 id="odstavec1">Nápad a myšlenka</h2>
+                <div class="box1">
+                    <p class="text1">- Celkový nápad na tento projekt vznikl po tom co jsem dostal do rukou
+                        jeden motor. Jednalo se o univerzální motor na 230 V. Jelikož jsem chtěl
+                        vědět jak je tento motor silný a co dokáže, navrhnul jsem a vytisknul
+                        jednoduchý úchyt pro tento motor, a také čistě od oka náhodně vrtuli. Vrtuli
+                        jsem na těsno připevnil na hřídel motoru. Poté jsem do motoru pustil proud
+                        a po zrychlení na nominální otáčky vrtule vyletěla a rozletěla se mi po
+                        celém pokoji. Nakonec jsem zjistil, že se motor otáčel na druhou stranu než
+                        měl přepólováním vstupní fáze. <br>
+                        - Tento “test” mě přivedl na myšlenku, že bych chtěl tento nápad návrhu
+                        vrtule rozvést více. Avšak jelikož mám rád výzvy a radši praxi než studovat
+                        teorii, rozhodnul jsem se, že navrhnu vlastní bez žádné teoretické studie
+                        návrhu těchto vrtulí. Přeci jen jsem zatím jen elektrikář a ne letecký inženýr.</p>
+                    <img id="img4" src="../images/img4.png" alt="Obrázek nelze zobrazit" width="350px" height="350px">
+                </div>
+
+
+            <h2 id="odstavec2">Provedení projektu</h2>
+            <div class="box2">
+                <img id="img2" src="../images/img2.png" alt="Obrázek nelze zobrazit" width="400px" height="350px">
+                <p class="text2">   Pro návrh technických částí je použit softwaru Autodesk Fusion 360
+                       zejména pro svou dobrou kooperaci s cloudem a sdílením projektu mezi
+                       více zařízeními. <br>
+                    - Projekt je proveden v rámci zájmového “kroužku” ve škole. K dispozici máme
+                       dvě 3D tiskárny <a id="link" target="_blank" href="https://www.prusa3d.com/cs/kategorie/original-prusa-mk4/">Prusa MK4 </a>, které byly použity pro tisk navržených
+                       komponentů větrného tunelu a vlastních vrtulí. <br>
+
+                    - Vlastní měřící tunel bude proveden s průhlednou trubkou uvnitř které bude
+                       umístěna na hřídeli daná vrtule pro přehledné pozorování funkčnosti.
+                       Trubka bude pohyblivá pro jednoduchou výměnu turbín. Na konci tunelu je
+                       umístěna měřící část anemometru pro měření průtoku vzduchu tunelem. <br>
+
+                    - Naměřená data jsou zaneseny do statických grafů a následně informace z
+                       nich použity k dalšímu návrhu “novějších” generací vlastních vrtulí.</p>
             </div>
+        </div>
+
     </body>
 </html>
