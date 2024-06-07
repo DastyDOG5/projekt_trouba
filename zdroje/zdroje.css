@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.15) url("../images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 110px;
+    line-height: 80px;
+    text-align: right;
+    background: linear-gradient(rgba(205, 207, 255, 0.56), rgba(255, 255, 255, 0));
+}
+
+.navItems {
+    display: flex;
+}
+
+.navItems li {
+    font-weight: bold;
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+.navItems li a {
+    font-size: 25px;
+    color: #646464;
+    letter-spacing: 3px;
+    font-family: TextFont, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navItems li a:hover {
+    color: #25a3dd;
+    text-decoration: none;
+    border-bottom: 1px dotted #25a3dd;
+}
+
+#nadpis1 {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+#podnadpis1 {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10%;
+    margin-left: 175px;
+    margin-right: 175px;
+
+}
